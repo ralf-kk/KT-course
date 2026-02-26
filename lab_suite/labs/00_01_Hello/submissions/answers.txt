@@ -10,5 +10,4 @@ c) Tablet (Android)
 d) iPad (iPadOS)
 e) Sonstiges: _______
 
-a) Lenovo
-d) iPad
+a) Lenovo Laptop (Windows)
