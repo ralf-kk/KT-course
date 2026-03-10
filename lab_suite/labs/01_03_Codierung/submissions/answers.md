@@ -9,34 +9,6 @@ Nach dem Ausführen des Skripts und **Einfügen der Konsolenausgabe** (Merge-Sym
 *(Wird per „Konsolenausgabe einfügen“ unten eingefügt. Danach bitte kommentieren.)*
 
 ---
- Char | Huffman code
-----------------------
- 'd'  |        0111
- 'a'  |        0100
- 'b'  |       01011
- 'c'  |       01010
- 'e'  |        0001
- 'f'  |        0000
- 'g'  |        0011
- 'h'  |        0010
- 'i'  |       10101
- 'j'  |       10100
- 'k'  |       10111
- 'l'  |       10110
- 'm'  |       10001
- 'n'  |       10000
- 'o'  |       10011
- 'p'  |       10010
- 'q'  |       11101
- 'r'  |       11100
- 's'  |       11111
- 't'  |       11110
- 'u'  |       11001
- 'v'  |       11000
- 'w'  |       11011
- 'x'  |       11010
- 'y'  |       01101
- 'z'  |       01100
 
 **2. Deine Kommentierung**
 
@@ -57,3 +29,26 @@ Wenn ein Zeichen häufig vorkommt:
 wird es sehr oft im Bitstrom auftreten
 deshalb lohnt es sich, ihm ein kurzes Codewort zu geben
 Seltene Zeichen bekommen dagegen längere Codes, weil sie nur selten vorkommen und den Durchschnitt kaum erhöhen.
+
+---
+
+## Konsolenausgabe
+
+```
+Enter the string to compute Huffman Code Tree: ---------------------------------------------------------
+Dictionary of Characters with char frequency:       {'a': 7, 'n': 2, 'h': 1, 'd': 2, 's': 1, 'f': 2, 'k': 3, 'j': 3}
+Dictionary converted into a list:                   dict_items([('a', 7), ('n', 2), ('h', 1), ('d', 2), ('s', 1), ('f', 2), ('k', 3), ('j', 3)])
+List of characters sorted to descending frequency:  [('a', 7), ('k', 3), ('j', 3), ('n', 2), ('d', 2), ('f', 2), ('h', 1), ('s', 1)]
+Huffman Code Dictionary:                            {'d': '000', 'n': '001', 's': '0100', 'h': '0101', 'f': '011', 'j': '100', 'k': '101', 'a': '11'}
+
+ Char | Huffman code 
+----------------------
+ 'a'  |          11
+ 'k'  |         101
+ 'j'  |         100
+ 'n'  |         001
+ 'd'  |         000
+ 'f'  |         011
+ 'h'  |        0101
+ 's'  |        0100
+```
