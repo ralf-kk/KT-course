@@ -1,0 +1,16 @@
+Enter the string to compute Huffman Code Tree: ---------------------------------------------------------
+Dictionary of Characters with char frequency:       {'a': 7, 'n': 2, 'h': 1, 'd': 2, 's': 1, 'f': 2, 'k': 3, 'j': 3}
+Dictionary converted into a list:                   dict_items([('a', 7), ('n', 2), ('h', 1), ('d', 2), ('s', 1), ('f', 2), ('k', 3), ('j', 3)])
+List of characters sorted to descending frequency:  [('a', 7), ('k', 3), ('j', 3), ('n', 2), ('d', 2), ('f', 2), ('h', 1), ('s', 1)]
+Huffman Code Dictionary:                            {'d': '000', 'n': '001', 's': '0100', 'h': '0101', 'f': '011', 'j': '100', 'k': '101', 'a': '11'}
+
+ Char | Huffman code 
+----------------------
+ 'a'  |          11
+ 'k'  |         101
+ 'j'  |         100
+ 'n'  |         001
+ 'd'  |         000
+ 'f'  |         011
+ 'h'  |        0101
+ 's'  |        0100
