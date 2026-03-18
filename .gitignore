@@ -72,6 +72,11 @@ coverage.xml
 !**/submissions/canvas_export.json
 !**/submissions/palette.json
 
+# eigene Abgaben in labs/submissions erlauben
+!lab_suite/labs/**/submissions/*.ipynb
+!lab_suite/labs/**/submissions/*.txt
+!lab_suite/labs/**/submissions/*.md
+
 # Instructor key (nicht ins Studenten-Repo exportieren)
 .instructor_key
 lab_suite/.instructor_key
