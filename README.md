@@ -8,10 +8,22 @@ Nach dem Klonen dieses Repos: Umgebung einrichten und Labs starten.
 
 ## 0a. Git-Hook aktivieren (wichtig für submissions)
 
-Damit Abgaben in `submissions/` nicht versehentlich als Löschung committed werden, nach dem Klonen einmal ausführen:
+Damit Abgaben in `submissions/` nicht versehentlich als Löschung committed werden, nach dem Klonen einmal das passende Setup-Skript ausführen:
 
 ```bash
-git config core.hooksPath .githooks
+# Windows (PowerShell)
+.\setup_git_hooks.ps1
+
+# Windows (CMD)
+setup_git_hooks.bat
+
+# Linux/macOS
+sh ./setup_git_hooks.sh
+```
+
+Optional prüfen:
+
+```bash
 git config --get core.hooksPath
 ```
 
